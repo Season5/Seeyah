@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000">
+    android:background="#cf718b">
 
     <ImageView
         android:src="@drawable/sia"
@@ -22,6 +22,6 @@
         android:id="@+id/textView"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:textColor="#cf718b"
+        android:textColor="#000000"
         android:textSize="30dp" />
 </RelativeLayout>
