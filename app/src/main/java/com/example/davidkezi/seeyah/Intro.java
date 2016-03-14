@@ -48,7 +48,7 @@ public class Intro extends AppIntro{
 //        setVibrateIntensity(30);
     }
     public void Skip(){
-        startActivity(new Intent(getBaseContext(), Main.class));
+        startActivity(new Intent(getBaseContext(), MainActivity.class));
         onStop();
     }
 
