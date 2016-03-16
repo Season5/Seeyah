@@ -10,6 +10,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/youtube_view"
         android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Soundcloud"
+        android:textSize="30sp"
+        android:background="#9c219c"
+        android:onClick="clickHere"
+        android:id="@+id/sound"
+        android:layout_below="@+id/youtube_view"/>
     <com.google.android.youtube.player.YouTubeThumbnailView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
